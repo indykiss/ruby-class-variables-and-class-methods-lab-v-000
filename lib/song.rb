@@ -9,3 +9,5 @@ class Song
   end 
   
   def .count 
+    puts @@count 
+  end 
