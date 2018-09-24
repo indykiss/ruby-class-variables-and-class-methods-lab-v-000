@@ -15,8 +15,7 @@ class Song
   end 
   
   def .genres 
-    
-    
+    return @@genres.uniq
   end 
   
 end 
