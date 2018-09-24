@@ -10,11 +10,11 @@ class Song
     @@genres << genre
   end 
   
-  def .count 
+  def count 
     puts @@count 
   end 
   
-  def .genres 
+  def genres 
     return @@genres.uniq
   end 
   
