@@ -28,7 +28,7 @@ class Song
     genre_count = {}
     @@genres.each do |i|
       if genre_count[genre] 
-        = i 
+       genre_count[genre] = i 
         
         
   end 
